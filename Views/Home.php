@@ -47,8 +47,8 @@
       </header >
       <main class="contenedor">
          <h1 class="titulo">Home</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo debitis consequuntur doloribus voluptatem itaque! Obcaecati, odit adipisci ratione quod modi voluptatum nihil. Magni quis quibusdam consequuntur reprehenderit doloremque quidem porro!</p>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt explicabo doloribus sed aut, doloremque architecto libero maiores ipsam cum voluptate excepturi sint officia eligendi praesentium possimus quasi rem accusamus odio.</p>
+        <p>Esta es un página con la cual podremos visualizar la información de las tablas de una base de datos</p>
+         <p>La información mostrada solamente será de los primeros 1000 registros, esto para evitar cualquier problema con la visualización de la información.</p>
 
          <img class="responsive-img" src="./Assets/img/uwu.png" alt="imagen de uwu">
       </main>

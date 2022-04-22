@@ -46,9 +46,9 @@
          </nav>
       </header >
       <main class="contenedor">
-         <h1 class="titulo">Informacion General</h1>
+         <h1 class="titulo">Información General</h1>
          <h2 class="subtitulo">Diseño de la base de datos</h2>
-         <p class="text-center">La base de datos que se puede visualizar en esta pagina, tiene la siguiente estructura</p>
+         <p class="text-center">La base de datos que se puede visualizar en esta página, tiene la siguiente estructura</p>
          <img class="responsive-img" src="./Assets/img/db_diagram.png" alt="">
       </main>
 

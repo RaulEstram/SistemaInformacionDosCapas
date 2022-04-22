@@ -9,7 +9,7 @@
       }
 
       public function getFullData(){
-        $sql = "SELECT * FROM sueldo limit 1000;";
+        $sql = "SELECT * FROM sueldo where to_date is null order by emp_no limit 1000;";
         $execute = $this->cursor->query($sql);
         $request = $execute->fetchall(PDO::FETCH_ASSOC);
         return $request;
