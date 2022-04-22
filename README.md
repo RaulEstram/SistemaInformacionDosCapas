@@ -18,6 +18,8 @@ la base de datos en cuestion tiene la siguiente estructura:
 
 ![Image text](https://github.com/RaulEstram/ImagenesREADME/blob/main/sistemaInformacion2Capas/db_diagram.png)
 
+link de descarga de la base de datos: https://drive.google.com/drive/folders/1Fsskkf4Gw6T_bt1UGb0fnFIuR0Die1Qn?usp=sharing
+
 ## Imagenes del sistema de informacion 
 
 A continuacion se puede apreciar algunas capturas del sistema de informacion
