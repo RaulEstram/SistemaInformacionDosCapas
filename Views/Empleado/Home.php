@@ -72,7 +72,7 @@
                             echo "<td> Null </td>";
                         }
                     }
-                     echo "<td><form method='POST' action='./peticiones/deleteEmpleado.php'><input  type='hidden' name='emp_no' value={$element['emp_no']} /><button class='btn btn-danger' type='submit' onclick='window.location.reload()'>Eliminar</button></form></td>";
+                     echo "<td><form id='{$element['emp_no']}' class='form' method='POST' action='./peticiones/deleteEmpleado.php'><input  type='hidden' name='emp_no' value={$element['emp_no']} /><button class='btn btn-danger' type='submit' onclick='window.location.reload()'>Eliminar</button></form></td>";
                      echo '</tr>';
                   }
                   ?>
@@ -80,7 +80,11 @@
          </table>
          </div>
       </main>
-
+      <div id="button-top" class="go-top-container show">
+       <div class="go-top-button">
+          <i class="fa-solid fa-angle-up"></i>
+       </div>
+    </div>
       <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
@@ -107,6 +111,10 @@
             <small>&copy; 2022 <b>Team UwU</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
+
+    
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="./Assets/javascript/script.js"></script>
    </body>
 </html>

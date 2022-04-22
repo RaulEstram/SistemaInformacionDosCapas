@@ -1,5 +1,5 @@
 <?php
-    require_once("../Libraries/Core/Connection.php");
+    require_once("../Libraries/Core/Autoload.php");
     $connection = new Connection();
     $cursor = $connection->getConnection();
     $quey="DELETE FROM empleado WHERE emp_no = ?";

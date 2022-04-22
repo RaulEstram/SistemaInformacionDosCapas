@@ -150,6 +150,40 @@ footer{
   height: auto;
 }
 
+/* go-top */
+
+.go-top-container{
+  position: fixed;
+  bottom: 1rem;
+  right:  1rem;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  transition: all 1s linear;
+}
+
+.go-top-button{
+  background-color: #212529;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.go-top-button i {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.show{
+  display: none;
+}
+
 /* css basico */
 
 .text-center{

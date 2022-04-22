@@ -76,7 +76,11 @@
          </table>
                </div>
       </main>
-
+      <div id="button-top" class="go-top-container show">
+       <div class="go-top-button">
+          <i class="fa-solid fa-angle-up"></i>
+       </div>
+    </div>
       <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
@@ -104,5 +108,6 @@
         </div>
     </footer>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="./Assets/javascript/script.js"></script>
    </body>
 </html>
