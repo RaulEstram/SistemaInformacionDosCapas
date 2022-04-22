@@ -57,6 +57,7 @@
                   <th>last_name</th>
                   <th>gender</th>
                   <th>hire_date</th>
+                  <th>eliminar</th>
                </tr>
             </thead>
             <tbody>
@@ -71,7 +72,8 @@
                             echo "<td> Null </td>";
                         }
                     }
-                      echo '</tr>';
+                     echo "<td><form method='POST' action='./peticiones/deleteEmpleado.php'><input  type='hidden' name='emp_no' value={$element['emp_no']} /><button class='btn btn-danger' type='submit' onclick='window.location.reload()'>Eliminar</button></form></td>";
+                     echo '</tr>';
                   }
                   ?>
             </tbody>
