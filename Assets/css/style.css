@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 html {
   box-sizing: border-box;
 }
@@ -7,28 +9,137 @@ html {
   box-sizing: inherit;
 }
 
+body{
+  width: 100%;
+	height: 100%;
+}
+
+/* main */
+
 .titulo{
+  font-size: 3rem;
   text-align: center;
-  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
+main{
+  padding-top: 96px;
+}
 .contenedor {
   margin: 0 auto;
-  max-width: 1200px;
+  width: 80vw;
 }
 
 @media only screen and (max-width: 991px) {
-  body {
-    background-color: rgb(240, 215, 224);
-  }
-
   .titulo{
     font-size: 2rem;
   }
 
   .contenedor{
-    max-width: 90vw;
+    width: 90vw;
+  }
+
+  .icono{
+    font-size: 5rem;
   }
 }
 
+i{
+  color: white;
+  font-size: 2rem;
+}
+
+
+
+/* PIE DE PAGINA */
+
+footer{
+  margin-top: 100px;
+}
+
+.icono{
+  font-size: 8rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .icono{
+    font-size: 5rem;
+  }
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #212529;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 1rem 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #212529;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #212529;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+
+/* page-not-found */
+
+
+
+.responsive-img{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}

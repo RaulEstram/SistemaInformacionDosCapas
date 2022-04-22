@@ -9,7 +9,7 @@
       }
 
       public function getFullData(){
-        $sql = "SELECT * FROM depto_empleado limit 1000;";
+        $sql = "SELECT * FROM depto_empleado  order by emp_no limit 1000;";
         $execute = $this->cursor->query($sql);
         $request = $execute->fetchall(PDO::FETCH_ASSOC);
         return $request;
