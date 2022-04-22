@@ -1,9 +1,6 @@
 <?php
-  class homeModel{
-      
+  class informacionModel{
       public function __construct(){
       }
-
-
   }
 ?>

@@ -8,7 +8,7 @@
       <link rel="stylesheet" href="./Assets/css/normalize.css">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
       <link rel="stylesheet" href="./Assets/css/style.css">
-      <title>Home</title>
+      <title>Informacion General</title>
    </head>
    <body>
       <header>
@@ -46,11 +46,10 @@
          </nav>
       </header >
       <main class="contenedor">
-         <h1 class="titulo">Home</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo debitis consequuntur doloribus voluptatem itaque! Obcaecati, odit adipisci ratione quod modi voluptatum nihil. Magni quis quibusdam consequuntur reprehenderit doloremque quidem porro!</p>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt explicabo doloribus sed aut, doloremque architecto libero maiores ipsam cum voluptate excepturi sint officia eligendi praesentium possimus quasi rem accusamus odio.</p>
-
-         <img class="responsive-img" src="./Assets/img/uwu.png" alt="imagen de uwu">
+         <h1 class="titulo">Informacion General</h1>
+         <h2 class="subtitulo">Diseño de la base de datos</h2>
+         <p class="text-center">La base de datos que se puede visualizar en esta pagina, tiene la siguiente estructura</p>
+         <img class="responsive-img" src="./Assets/img/db_diagram.png" alt="">
       </main>
 
       <footer class="pie-pagina">

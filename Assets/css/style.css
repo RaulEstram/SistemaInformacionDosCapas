@@ -22,6 +22,12 @@ body{
   margin-bottom: 2rem;
 }
 
+.subtitulo{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 main{
   padding-top: 96px;
 }
@@ -142,4 +148,10 @@ footer{
   margin: auto;
   max-width: 100%;
   height: auto;
+}
+
+/* css basico */
+
+.text-center{
+  text-align: center;
 }
