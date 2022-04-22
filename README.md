@@ -16,7 +16,7 @@ la base de datos esta realiza en MySQL
 
 la base de datos en cuestion tiene la siguiente estructura:
 
-![Image text](https://github.com/RaulEstram/ImagenesREADME/blob/main/sistemaInformacion2Capas/home.png)
+![Image text](https://github.com/RaulEstram/ImagenesREADME/blob/main/sistemaInformacion2Capas/db_diagram.png)
 
 ## Imagenes del sistema de informacion 
 
@@ -28,12 +28,12 @@ A continuacion se puede apreciar algunas capturas del sistema de informacion
 
 ### Informacion general
 
-![Image text](https://github.com/RaulEstram/ImagenesREADME/blob/main/sistemaInformacion2Capas/home.png)
+![Image text](https://github.com/RaulEstram/ImagenesREADME/blob/main/sistemaInformacion2Capas/informacionGeneral.png)
 
 ### Departamentos
 
-![Image text](https://github.com/RaulEstram/ImagenesREADME/blob/main/sistemaInformacion2Capas/home.png)
+![Image text](https://github.com/RaulEstram/ImagenesREADME/blob/main/sistemaInformacion2Capas/Departamentos.png)
 
 ### Empleados
 
-![Image text](https://github.com/RaulEstram/ImagenesREADME/blob/main/sistemaInformacion2Capas/home.png)
+![Image text](https://github.com/RaulEstram/ImagenesREADME/blob/main/sistemaInformacion2Capas/empleado.png)
