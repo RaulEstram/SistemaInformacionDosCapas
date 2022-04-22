@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.titulo{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contenedor {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+@media only screen and (max-width: 991px) {
+  body {
+    background-color: rgb(240, 215, 224);
+  }
+
+  .titulo{
+    font-size: 2rem;
+  }
+
+  .contenedor{
+    max-width: 90vw;
+  }
+}
+
